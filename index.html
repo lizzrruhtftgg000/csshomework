@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Мой CSS</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f4ff;
+  padding: 30px;
+}
+h1 { color: #253858; }
+.btn {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn-primary {
+  background: blue;
+  color: white;
+}
+.btn-primary:hover {
+  background: darkblue;
+}
+.btn-secondary {
+  background: lightgray;
+}
+.btn-secondary:hover {
+  background: gray;
+  color: white;
+}
+nav { margin: 20px 0; }
+.nav-link {
+  color: blue;
+  padding: 10px;
+  text-decoration: none;
+}
+.nav-link:hover { background: lightblue; }
+.nav-link.active {
+  background: blue;
+  color: white;
+}
+.description { color: gray; }
+#special-text { color: purple; }
+</style>
+</head>
+<body>
+<h1>Мой CSS</h1>
+<h2>Кнопочке</h2>
+<button class="btn btn-primary">Основная</button>
+<button class="btn btn-secondary">Вторая основная</button>
+<h2>Меню</h2>
+<nav>
+<a href="#home" class="nav-link active">Главная</a>
+<a href="#about" class="nav-link">О проекте</a>
+<a href="#contacts" class="nav-link">Контакты</a>
+</nav>
+<h2>Хз</h2>
+<p class="description">lelelele</p>
+<p id="special-text" class="description">
+Этот текст оформлен с помощью ID селектора
+</p>
+</body>
+</html>
